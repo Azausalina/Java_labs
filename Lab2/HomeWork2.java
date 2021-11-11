@@ -1,9 +1,7 @@
-/*
-Java Home Work №2
-
-Author: Anna Zausalina
-
-Date: 11.11.2021
+/**
+* Java Home Work №2
+* Author: Anna Zausalina
+* Date: 11.11.2021
 */
 
 class HomeWork2 {

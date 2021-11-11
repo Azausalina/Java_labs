@@ -1,5 +1,6 @@
 # Mac os file
 *.DS_Store
+*.sh
 
 # Compiled class file
 *.class

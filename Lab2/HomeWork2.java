@@ -55,11 +55,7 @@ class HomeWork2 {
 */
 
     static boolean isBisSextus(int year){
-        if (((year % 100 != 0) | (year == 400)) & (year % 4 == 0)) {
-            return true;
-        }
-
-        return false;
+        return ((year % 100 != 0) | (year == 400)) & (year % 4 == 0);
     }
 
     public static void main(String[] args) {

@@ -4,8 +4,6 @@
 * Date: 17.11.2021
 */
 
-import java.util.Arrays;
-
 class HomeWork5 {
 
     public static void main(String[] args) {
@@ -90,7 +88,7 @@ class Employee {
     public String getFullName() {
         return this.fullName;
     }
-    
+
     public void setFullName(String fullName) {
         this.fullName = fullName;
     }

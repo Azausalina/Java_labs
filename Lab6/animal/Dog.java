@@ -1,3 +1,9 @@
+/**
+* Class implement Dogs
+* Author: Anna Zausalina
+* Date: 23.11.2021
+*/
+
 package animal;
 
 public class Dog extends Animal {

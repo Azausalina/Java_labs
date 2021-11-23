@@ -1,3 +1,9 @@
+/**
+* Java Home Work №6
+* Author: Anna Zausalina
+* Date: 23.11.2021
+*/
+
 import animal.*;
 
 class HomeWork6 {

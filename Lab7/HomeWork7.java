@@ -1,7 +1,7 @@
 /**
 * Java Home Work №7
 * Author: Anna Zausalina
-* Date: 24.11.2021
+* Date: 25.11.2021
 */
 
 class Cat {

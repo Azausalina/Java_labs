@@ -1,14 +1,14 @@
 /**
 * Class implement Animals
 * Author: Anna Zausalina
-* Date: 23.11.2021
+* Date: 24.11.2021
 */
 
 package animal;
 
 import java.lang.Math;
 
-public abstract class Animal {
+public abstract class Animal implements Moveable{
 
     private String name;
     private String breed;

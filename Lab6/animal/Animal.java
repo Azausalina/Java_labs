@@ -64,11 +64,17 @@ public abstract class Animal implements Moveable{
     собака 10 м.).
     */
     public String run(int distance) {
-        return this.type + " " + this.name + " ran " + Math.min(distance, runLimit) + " m.";
+        if (distance > this.runLimit) {
+            return "Too much distance to run!";
+        }
+        return this.type + " " + this.name + " ran " + distance + " m.";
     }
     public String swim(int distance) {
         if (this.swimLimit > 0) {
-            return this.type + " " + this.name +  " swam " + Math.min(distance, swimLimit) + " m.";
+            if (distance > this.swimLimit) {
+                return "Too much distance to swim!";
+            }
+            return this.type + " " + this.name +  " swam " + distance + " m.";
         }
         return this.type + " " + this.name + " can't swim :(";
     }

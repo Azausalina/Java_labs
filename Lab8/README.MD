@@ -27,4 +27,7 @@ About configurations:
 > INF_FIELD = true // if true - field is a loop : else if you touch a edges - GAME OVER
 
 To create a jar file:
-> jar cvf asd.jar .
+> jar cvf GameSnake.jar *[^.java]
+
+To create a jar file for Mac:
+> jar cvf GameSnake.jar *[^.java][^.DS_Store]
